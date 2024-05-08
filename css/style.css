@@ -1253,5 +1253,13 @@
 .act-link{
     text-shadow: 2px 2px 2px #0e0933;
     font-weight: bolder;
-    color: #ffffff !important;
+    color: #e2e2e2 !important;
+}
+
+.sec-title{
+    position: relative;
+    display: block;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
 }
