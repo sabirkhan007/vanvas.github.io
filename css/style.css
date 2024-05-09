@@ -1355,5 +1355,9 @@
     font-family: 'Playfair Display', serif;
     font-weight: 900;
 }
+
+.pack-iem{
+    box-shadow: 4px 4px 12px -5px #0a0a43f0;
+}
  
  
