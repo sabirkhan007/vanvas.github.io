@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>  Vanvas Adventure</title>
+        
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="best travel company nearby, best himalaya tour" name="keywords">
+        <meta content="call now +91 7895958070 - Find & book the best treks packages from Delhi and all over India. Top treks and tour packages near me, treks packages" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6700f56e1f.js" crossorigin="anonymous"></script>
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+      
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+               <!-- <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Vanvas Adventure</h1> -->
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>       
+                        <a href="all-treks.html" class="nav-item nav-link">All Treks</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                       
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=9128777355&text=Hello%21%20I%20need%20information%20of%20trek%20plans." class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now </a>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4 "  style="text-shadow: 3px 3px 8px black;" >Explore Majestic Peaks</h1>
+                                    <p class="mb-5 fs-5">Embark on unforgettable journeys through majestic peaks, offering breathtaking views and adventures. Our expert guides lead trekkers of all levels to hidden wonders worldwide.
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="all-treks.html">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Find Your Perfect Pckage Here</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4" style="text-shadow: 3px 3px 8px black;">Connect with Nature</h1>
+                                    <p class="mb-5 fs-5">Escape to reconnect with nature's serene beauty. Our treks immerse you in pristine forests, crystal-clear streams, and vibrant meadows, offering wildlife encounters and cultural insights.
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="all-treks.html">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-3.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"> Unforgettable Cultural Experiences</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4" style="text-shadow: 3px 3px 8px black;">You Like To Go?</h1>
+                                    <p class="mb-5 fs-5">Discover rich cultural heritage amid breathtaking landscapes. Our treks offer thrilling adventures and authentic interactions, from homestays with indigenous tribes to guided tours of ancient ruins and temples.
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="all-treks.html">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+       
+
+        
+
+
+
+           
+        <!-- Travel  SPECIALS Start -->
+        <div class="container-fluid guide py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3">VANVAS SPECIALS</h5>
+                    <h1 class="mb-0 sec-title">Why Treks with <span style="color: #841717;">Vanvas ?</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img src="img/experience.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                </div>
+                                <div class="guide-icon rounded-pill p-2">
+                                    <a class="btn btn-square btn-primary rounded-circle mx-1"  ><i class="fa-solid fa-person-hiking"></i></a>
+                                   
+                                </div>
+                            </div>
+                            <div class="guide-title text-center rounded-bottom p-4">
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">Experience Treks Differently</h4>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img src="img/trusted.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                </div>
+                                <div class="guide-icon rounded-pill p-2">
+                                    <a class="btn btn-square btn-primary rounded-circle mx-1" ><i class="fa-solid fa-file-signature"></i></a>
+                                
+                                </div>
+                            </div>
+                            <div class="guide-title text-center rounded-bottom p-4">
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">100% Trusted Tour Agency</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img src="img/years.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                </div>
+                                <div class="guide-icon rounded-pill p-2">
+                                    <a class="btn btn-square btn-primary rounded-circle mx-1"><i class="fa-solid fa-earth-americas"></i></a>
+                                     
+                                </div>
+                            </div>
+                            <div class="guide-title text-center rounded-bottom p-4">
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">12+ Years of Travel Experience</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="guide-item">
+                            <div class="guide-img">
+                                <div class="guide-img-efects">
+                                    <img src="img/happy-cus.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                </div>
+                                <div class="guide-icon rounded-pill p-2">
+                                    <a class="btn btn-square btn-primary rounded-circle mx-1"><i class="fa-solid fa-people-pulling"></i></a>
+                                    
+                                </div>
+                            </div>
+                            <div class="guide-title text-center rounded-bottom p-4">
+                                <div class="guide-title-inner">
+                                    <h4 class="mt-3">98% of Our Travelers are Happy</h4>
+                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Travel  SPECIALS End -->
+
+      
+     
+      
+
+        
+        <!-- Packages Start -->
+        <div class="container-fluid packages py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3">MODERN & BEAUTIFUL</h5>
+                    <h1 class="mb-0">Our Most Popular <span style="color: #841717;">Trek Packages </span></h1>
+                </div>
+                <div class="packages-carousel owl-carousel">
+                    <div class="packages-item">
+                        <div class="packages-img">
+                            <img src="img/kedarkantha-trek.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute" style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2"></i>Uttarakhand </small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt me-2"></i>5 days & 4 Night</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1 Person </small>
+                            </div>
+                            <div class="packages-price py-2 px-4">₹5499/-</div>
+                        </div>
+                        <div class="packages-content bg-light">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-0">Kedar Kantha Trek
+</h5>
+                                
+                                 
+                                <p class="mb-4"></p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="kedarkantha-trek.html" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="https://api.whatsapp.com/send?phone=9128777355&text=Hello%21%20I%20need%20information%20of%20trek%20plans." class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packages-item">
+                        <div class="packages-img">
+                            <img src="img/kedarnath-home-pack.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute" style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2"></i>Uttarakhand</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt me-2"></i>4 days & 3 Nights </small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1 Person</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">₹5499.00</div>
+                        </div>
+                        <div class="packages-content bg-light">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-0">Kedarnath </h5>
+                                
+                                <div class="mb-3">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <p class="mb-4"></p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="kedarnath-yatra.html" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="https://api.whatsapp.com/send?phone=9128777355&text=Hello%21%20I%20need%20information%20of%20trek%20plans." class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packages-item">
+                        <div class="packages-img">
+                            <img src="img/dodham-home-pack.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute" style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2"></i>Kedarnath & Badrinath </small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt me-2"></i>5 days & 4 Nights</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1 Person</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">₹5499/-</div>
+                        </div>
+                        <div class="packages-content bg-light">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-0">Do Dham </h5>
+                                
+                                <div class="mb-3">
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <p class="mb-4"></p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="do-dham-yatra.html" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="https://api.whatsapp.com/send?phone=9128777355&text=Hello%21%20I%20need%20information%20of%20trek%20plans." class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packages-item">
+                        <div class="packages-img">
+                            <img src="img/chardham-home-pack.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="packages-info d-flex border border-start-0 border-end-0 position-absolute" style="width: 100%; bottom: 0; left: 0; z-index: 5;">
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2"></i>Kedarnath , Gangotri </small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt me-2"></i>9 days & 8 Nights </small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user me-2"></i>1 Person</small>
+                            </div>
+                            <div class="packages-price py-2 px-4">₹5499/-</div>
+                        </div>
+                        <div class="packages-content bg-light">
+                            <div class="p-4 pb-0">
+                                <h5 class="mb-0">Chardham Yatra </h5>
+                                
+                                <div class="mb-3">
+								
+								
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                                <p class="mb-4"></p>
+                            </div>
+                            <div class="row bg-primary rounded-bottom mx-0">
+                                <div class="col-6 text-start px-0">
+                                    <a href="chardham-yatra.html" class="btn-hover btn text-white py-2 px-4">Read More</a>
+                                </div>
+                                <div class="col-6 text-end px-0">
+                                    <a href="https://api.whatsapp.com/send?phone=9128777355&text=Hello%21%20I%20need%20information%20of%20trek%20plans." class="btn-hover btn text-white py-2 px-4">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Packages End -->
+
+<!-- home-about  -->
+
+<section class="about-style-three">
+    <div class="pattern-layer" style="background-image: url(img/shape-4.png);"></div>
+    
+    <div class="auto-container">
+      <div class="row clearfix">
+        <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+          <div class="content_block_3">
+            <div class="content-box text-right">
+              <div class="image-box">
+                <figure class="image"><img src="img/since-2008.jpg" alt=""></figure>
+              </div>
+              <div class="text">
+                <p>Since 2015, Vanvas Adventure has been your trusted companion for unforgettable trekking experiences. Our expertly guided expeditions and meticulously crafted itineraries ensure each journey is filled with thrills and cultural immersion. Safety is paramount, with top-quality gear and comprehensive emergency support provided. Committed to sustainability, we leave a positive impact on the environments and communities we visit. What sets us apart is our passion for exploration and dedication to customer satisfaction. Whether it's your first trek or a new challenge, we turn dreams into reality. Join us on an unforgettable journey and discover why Vanvas Adventure has been your best treks partner since 2015.</p>                
+                 </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+          <div class="content_block_4">
+            <div class="content-box">
+              <div class="sec-title">
+                <p>Vanvas Advanture</p>
+                <h2>Your Trusted Treks Partner<span style="color: #ff7c5b;"> Since 2015.</span></h2>
+              </div>
+              <figure class="image-box"><img src="img/about-content.jpg" alt=""></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- home-about  end -->
+
+
+  <!-- best tour Start -->
+  <div class="container-fluid subscribe py-5">
+    <div class="container text-center py-5">
+        <div class="mx-auto text-center" style="max-width: 900px;">
+           
+            <h1 class="text-white mb-4 " style="text-shadow: 3px 3px 8px black;"> Experience the Majesty of the Himalayas with Vanvas Adventure</h1>
+            <p class="text-white mb-5" style="text-shadow: 3px 3px 8px black;"> Experience the majestic beauty of the Himalayas with Vanvas Adventure. Our guided treks take you through rugged terrains and ancient forests, offering breathtaking views and unforgettable experiences. Whether you're an experienced trekker or a novice, our team ensures your safety and satisfaction throughout the journey.
+<br>
+                But the adventure doesn't stop there. Extend your stay with our camping options, perfect for families, couples, and friends. Immerse yourself in the tranquility of the Himalayan wilderness, where starlit nights and sunrise views await. With Vanvas Adventure, every moment is an opportunity to connect with nature and create lasting memories. Join us for an unforgettable Himalayan adventure, where every step brings you closer to the wonders of the world's highest mountain range.</p>
+            
+        </div>
+    </div>
+</div>
+<!-- best tour End -->
+
+
+       
+       
+
+       
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Get In Touch</h4>
+                            <a href=""><i class="fas fa-home me-2"></i> 22 Amwalal Tarla, Adhoiwala, Dehradun, Uttarakhand 248001 </a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> Vanvasadventure@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +91 78959 58070</a>
+                          
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://www.facebook.com/profile.php?id=61556573422112&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Usefull Links</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="all-treks.html"><i class="fas fa-angle-right me-2"></i> Treks</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Pay And Book Now </a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Popular Treks</h4>
+                      <a href="kedarkantha-trek.html"><i class="fas fa-angle-right me-2"></i> Kedar Kantha Trek</a>
+                            <a href="Har Ki Dun.html"><i class="fas fa-angle-right me-2"></i> Har Ki Dun Trek</a>
+                           
+                            <a href="CharDham Yatra.html"><i class="fas fa-angle-right me-2"></i> CharDham Yatra</a>
+                            <a href="bali-pass-trek.html"><i class="fas fa-angle-right me-2"></i> Bali Pass Trekk</a>
+                            <a href="Chopta Tungnath Trek.html"><i class="fas fa-angle-right me-2"></i> Chopta Tungnath Trek</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <div class="row gy-3 gx-2 mb-4">
+                                <h4 class="text-white mb-3">Vanvas Adventure</h4>
+                                <p class="text-white mb-3" >Your Premier Destination for Himalayan Treks and Camping Experiences. Explore the majestic beauty of the Himalayas with our expertly guided treks and cozy camping options for families, couples, and friends. Embark on an unforgettable adventure with us today!</p>  
+                               
+                            </div>
+                           
+                             <!-- <div class="footer-bank-card">
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
+                                <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                                <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!--End Footer--> 
+<!--\FIXED FOOTER DESIGN ON Max-MOBILE SITE/-->
+  <div class="footer-share-kmy">
+    <div class="footer-share-button"> <a href="https://api.whatsapp.com/send?phone=9368705455&amp;text=Hi, I Need Information " class="whatsapp">WhatsAPP</a> <a href="tel:+919368705455" class="call_btn_bottom">Call</a></div>
+  </div>
+  <!--/FIXED FOOTER DESIGN ON Max-MOBILE SITE END\-->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Vanvas Adventure </a>, All right reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                       
+                        Designed By <a class="text-white" href="arbazalamagency.in">Arbaz Alam Agecy </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
