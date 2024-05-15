@@ -172,6 +172,7 @@
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--bs-white) !important;
+    background-color: #ef7f1b;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -1445,6 +1446,13 @@ h1, h2, h3, h4, h5, h6 {
     .footer-share-kmy {
     display:none
     }
+    }
+
+
+    .btn-primary {
+        color: #fff;
+        background-color: #ef7f1b;
+        border-color: #101d29cf;
     }
 
     
